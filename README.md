@@ -20,3 +20,9 @@ We used a Tukey’s HSD test to determine whether this group of DEGs (<1.5 TPM i
 
 Please refer to the Pipeline: https://rpubs.com/Akhil_Velluva/ptee_aba
 
+### GO enrichment
+Gene ontology enrichment analysis was performed with the R package GOfuncR (version 1.14.0) for up- and down-regulated DEGs. GO nodes with a family wise error rate (FWER) <0.05 were considered significantly enriched. To check for unspecific GO enrichment analysis results, the four control subjects were split in two groups and differential gene expression and GO enrichment analyses were performed for those two control groups.
+
+Please refer to the Pipeline: https://rpubs.com/Akhil_Velluva/GOfuncR
+
+
