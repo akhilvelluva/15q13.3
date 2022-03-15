@@ -14,3 +14,9 @@ Please refer to the Script: htseq-count.sh
 Differential expression of genes was determined with the R package DESeq2 (version 1.30.1), which uses the Benjamini-Hochberg method to correct for multiple testing .All three patients were tested together against the four control subjects for differential expression of RNA. Genes were considered to be significantly differentially expressed if p-adj < 0.05. Further, differential expression was analyzed for each patient individually against the controls. Genes being differentially expressed with a p-adj < 0.1 in all three patients were identified as overlapping DEGs.
 
 Please refer to the Script: DESeq2.sh
+###  ABA Enrichment Analysis
+For DEGs expressed <1.5 TPM in adult brain cortex (according to PTEE (https://bioinf.eva.mpg.de/PTEE/)), expression levels in different developmental stages were obtained from the R package ABAEnrichment (version 1.20.0) for the whole brain. 
+We used a Tukey’s HSD test to determine whether this group of DEGs (<1.5 TPM in adult brain cortex) displays a significantly different expression profile between the brain developmental stages.
+
+Please refer to the Pipeline: https://rpubs.com/Akhil_Velluva/ptee_aba
+
